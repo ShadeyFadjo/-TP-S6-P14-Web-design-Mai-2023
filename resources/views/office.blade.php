@@ -218,7 +218,7 @@
                                                             class="form-control" placeholder="Titre de l'IA-rticle"
                                                             />
                                                     <br/>
-                                                    <label class="form-label">Image de couverture</label>
+                                                    <label class="form-label">Image de couverture(png si possible)</label>
                                                     <input class="form-control"  data-parsley-type="alphanum" type="file" name="file">
                                                     <br/>
                                                     <label class="form-label">Résumé de l'IA-rticle</label>
