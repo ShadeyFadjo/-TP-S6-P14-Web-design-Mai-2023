@@ -223,7 +223,7 @@
                                 $lienimage=$art->image;
                                 $lienimage=str_replace('public', 'storage', $lienimage);
                             ?>
-                            <p> <img width="250" height="200" src="{{ asset($lienimage) }}"/></p>
+                            <p> <img width="250" height="200" src="data:image/png;base64,{{ $art->image }}" alt="image base64"/></p>
                             <p> <?php echo $art->resume; ?> </p>
                             <p> <?php echo $art->daty; ?> </p>
                         </div>
@@ -297,7 +297,7 @@
 
                     <div class="p-4">
                         <div class="mb-2">
-                            <img src="<%= request.getContextPath()%>/resources/assets/images/layouts/layout-1.jpg" class="img-thumbnail" alt="">
+                            
                         </div>
                         <div class="form-check form-switch mb-3">
                             <input type="checkbox" class="form-check-input theme-choice" id="light-mode-switch" checked />

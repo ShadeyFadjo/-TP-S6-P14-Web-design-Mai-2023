@@ -123,13 +123,21 @@ class ShadController extends Controller
     {
         $file = $request->file('file');
 
-        if ($file->isValid()) {
-            $filename = $file->store('public/kalsimage');
-            //return "Le fichier a été uploadé avec succès. Chemin du fichier : $filename";
-        }
+        // if ($file->isValid()) {
+        //     $filename = $file->store('public/kalsimage');
+        //     //return "Le fichier a été uploadé avec succès. Chemin du fichier : $filename";
+        // }
         // else {
         //     return "Une erreur s'est produite lors de l'upload du fichier.";
         // }
+
+        if($request->hasFile('file'))
+        {
+            $image=$request->file('file');
+            $encode=base64_encode(file_get_contents($image));
+            $filename=$encode;
+        }
+
         DB::table('article')->insert([
             'titre' => $request->input('titre'),
             'resume' => $request->input('resume'),
