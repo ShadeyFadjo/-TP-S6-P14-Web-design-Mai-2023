@@ -3,6 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="IA, Actualités">
+        <meta name="description" content="Front-office">
+	    <link rel="canonical" href="https://tp-s6-p14-web-design-mai-2023-production-123d.up.railway.app/">
+
+        <meta name="robots" content="index">
+
         <title>TP S6 P14 Web design Mai 2023</title>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="assets/images/favicon.ico">
