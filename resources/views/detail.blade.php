@@ -164,7 +164,7 @@
                                 $lienimage=$art->image;
                                 $lienimage=str_replace('public', 'storage', $lienimage);
                             ?>
-                        <p> <img width="350" height="250" src="{{ asset($lienimage) }}"/></p>
+                        <p> <img width="350" height="250" src="data:image/png;base64,{{ $art->image }}" alt="image base64""/></p>
                         
                         <?php echo $art->contenu; ?>
 

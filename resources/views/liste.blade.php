@@ -224,7 +224,7 @@
                                 $lienimage=$art->image;
                                 $lienimage=str_replace('public', 'storage', $lienimage);
                             ?>
-                            <p> <img width="250" height="200" src="{{ asset($lienimage) }}"/></p>
+                            <p> <img width="250" height="200" src="data:image/png;base64,{{ $art->image }}" alt="image base64""/></p>
                             <p> <?php echo $art->resume; ?> </p>
                             <a href="{{  url('/delete/'.$id)  }}">   
                                 <button  class="btn btn-primary waves-effect waves-light me-1">
