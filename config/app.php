@@ -120,6 +120,7 @@ return [
     */
 
     'key' => env('APP_KEY'),
+    'gzip' => true,
 
     'cipher' => 'AES-256-CBC',
 
