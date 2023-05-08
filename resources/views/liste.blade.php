@@ -19,8 +19,8 @@
         <link href="assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
-        <link href="assets/libs/spectrum-colorpicker2/spectrum.min.css " rel="stylesheet" type="text/css">
-        <link href="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css " rel="stylesheet" />
+        <link href="assets/libs/spectrum-colorpicker2/spectrum.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
 
         <!-- Styles -->
         <!-- <style>
