@@ -99,7 +99,6 @@
                                         <span>Pour l'IA-dmin</span>
                                     </a>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
@@ -109,7 +108,6 @@
                         <div class="container-fluid">
 
                         <h1> L'IA-MAZING</h1>
-                        
 
             <div class="row" style="clear: right;">
                 <?php
@@ -141,9 +139,7 @@
                 <?php } ?>
             </div>
             </div>
-            <!-- container-fluid -->
             </div>
-            <!-- End Page-content -->
             <footer class="footer">
                 <div class="container-fluid">
                     <div class="row">
@@ -203,15 +199,13 @@
                         </div>
 
                         <div class="mb-2">
-                            <img alt="" class="img-thumbnail" src="<%= request.getContextPath()%>/resources/assets/images/layouts/layout-2.jpg">
                         </div>
                         <div class="form-check form-switch mb-3">
-                            <input type="checkbox" class="form-check-input theme-choice" id="dark-mode-switch" data-bsStyle="<%= request.getContextPath()%>/resources/assets/css/bootstrap-dark.min.css" data-appStyle="<%= request.getContextPath()%>/resources/assets/css/app-dark.min.css" />
                             <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
                         </div>
 
                         <div class="mb-2">
-                            <img alt="" class="img-thumbnail" src="<%= request.getContextPath()%>/resources/assets/images/layouts/layout-3.jpg">
+                            
                         </div>
                         <div class="form-check form-switch mb-5">
                             <input type="checkbox" class="form-check-input theme-choice" id="rtl-mode-switch" data-appStyle="<%= request.getContextPath()%>/resources/assets/css/app-rtl.min.css" />
